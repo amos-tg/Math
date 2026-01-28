@@ -1,0 +1,73 @@
+~ Long Division with Variables: 
+repeatedly apply long division using the leading term of the divisor to cancel the leading term of the dividend, when you can no longer cancel the leading term you have reached your answer
+
+quotient + remainder/divisor
+
+dividend: 
+  the terms being divided, the numerator
+
+divisor: 
+  the terms doing the dividing, the denominator
+
+division: 
+  how many times does the divisor go 
+	into the dividend? 
+
+	two goes into one 1/2 of a time.
+	this is because two is twice
+	the size of one.
+
+~ Synthetic Division: 
+the dividend must be in standard form & the divisor must be in the form (x - c) for c to be a positive value, if the divisor is in the form (x + c), then the sign of c is negative.
+
+1 * 
+  write the value of c as the divisor with 
+the sign rules applied.
+
+2 * 
+  write the coefficient of each dividend in 
+descending order with placeholders for missing
+powers of x.
+
+3 * 
+  skip a line and draw a horizontal line 
+below the list of coefficients
+
+4 * 
+  bring down the leading coefficient from the 
+dividend and write it below the line.
+
+5 * 
+  Multiply the value of c by the number below the 
+line & write the result in the next column above
+the line. 
+
+6 *
+  add the numbers in the column above the line,
+write the result below the line. 
+
+7 * 
+  repeat steps 5 and 6 until all columns have 
+been completed.
+
+once completed the rightmost number below the 
+line is the remainder. The other numbers below
+the line are the coefficients of the quotient
+in order by the degree of the term. 
+
+since the divisor is linear (first degree), the 
+degree of the quotient is 1 less than the degree
+of the dividend. The dividend is of degree 32. 
+Therefore the degree of the quotient will be 2.
+
+remember that the final form is:
+
+quotient + remainder/divisor
+
+~ Remainder Theorem:
+If a polynomial f(x) is divided by x-c, then the remainder is f(c). The remainder theorem tells us that the value of f(c) is the same as the remainder we get from dividing f(x) by x-c. 
+
+~ Factor Theorem:
+Let f(x) be a polynomial 
+if f(c) = 0, then (x-c) is a factor of f(x)
+if (x-c) is a factor of f(x), then f(x) = 0.

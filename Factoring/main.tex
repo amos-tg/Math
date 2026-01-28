@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, enumitem, array}
+\title{Factoring}
+\author{Amos Thacker-Gwaltney}
+
+\begin{document}
+\maketitle
+
+
+\section{Greatest Common Factor}
+Applies the reverse of the distributive property to pull out factors from an expression. An example with variables:
+\[x(x+1)=x^2+x\]
+another with just numbers:
+\[10(10+1)=100+10\]
+this method has the highest precedence of all the factoring methods.
+
+
+\section{Special Methods}
+These methods have the second highest precedence, neither takes precendence over the other so inner categorical precedence is based on left to right occurrence.
+
+\subsection{Difference of Squares}
+A method used to factor a binomial group that is the difference between two perfect squares; this only holds true for subtractive square pairs because the conjugate has to cancel out the first degree values of the variable.
+The Formula:
+\[(a^2-b^2)=(a-b)(a+b)\]
+Example:
+\[(49-x^2)=(7-x)(7+x)\]
+
+\subsection{Difference and Sum of Cubes}
+The Difference and Sum of Cubes methods are used to factor pairs of cubes in additive and subtractive binomial groups.
+\[(a^3+b^3)=(a+b)(a^2-ab+b^2)\]
+\[(a^3-b^3)=(a-b)(a^2+ab+b^2)\]
+
+
+\section{Simple/AC Method}
+This method is used to factor trinomial quantities of roughly the form: 
+\[ax^2+bx+c\]
+Split or dont split a into a multiple/s which:\\
+when multiplied with two terms whose product is c, add up to b.\\\\
+It is important to know that this method can be used with multivariable quadratics as well.\\
+
+Example:
+\[(2x+2)(x+2)\]
+\[2x^2+4x+2x+4\]
+\[2x^2+6x+4\]
+\[(2x+2)(x+2)=2x^2+6x+4\]
+
+
+\section{Grouping}
+This method can be used to factor polynomials which cannot be factored with the other methods because not all of the factors conform to a singular method. You make use of the associative and commutative properties of a variety of addition and subtraction to group together factors into quanities which can be factored with the other methods, precedence rules apply here in what you should do first.\\\\ 
+Example:
+\[x^2+8x+y^2+y\]
+\[(x^2+8x)(y^2+y)\]
+\[x(x+8)y(y+1)\]
+\[(xy)(x+8)(y+1)\]
+
+
+\section{Order of Application}
+The above methods of factoring MUST be applied in a specific order to produce a solution which is factored optimally; solutions which are not factored to the simplest solution will be not recieve credence. The ordering of method application is as follows.
+
+
+\begin{enumerate}
+  \item Greatest Common Factor
+  \item Special Methods
+  \item Simple/AC Method and Grouping
+\end{enumerate}
+
+
+\section{Higher Degree Polynomial Factoring}
+High degree polynomial factoring makes use of synthetic division to find factors of a polynomial using trial and error to pick out of a set of possible factors. Once you have reached a quadratic, if you cannot factor it further with basic methods, it is best to excersise the quadratic formula in case the answer is complex.
+\[x^3+2x^2+4x+10\]\\
+To factor this kind of problem utilize the Rational Zero theorem. Are possible zeros are all the factors of $a_0$ and $a_n$:
+\[a_0=10 \land a_3=1\]
+the factors of $p=a_0=10$ are: 
+\[\pm10,\pm5,\pm2,\pm1\]
+the factor of $q=a_3=1$ is: 
+\[\pm1\]
+the possible zeros are: 
+\[\pm10,\pm5,\pm2,\pm1\]
+
+now we perform synthetic division with each of these possible zeros 
+until we find the ones which divide with no remainder. Notably since the zero is the number we set the divisor to x-zero because zero-zero =zero which is what we're looking for. \\
+
+Didn't work:
+\[\frac{x^3+2x^2+4x+10}{x-10}\]
+\[\begin{array}{r|rrrr}
+  10 & 1 & 2  & 4   & 10 \\
+     &   & 10 & 120 & 1240 \\ \hline
+     & 1 & 12 & 124 & 1250
+\end{array}\]\\\\
+
+Unfortunately this problem is not solvable with this method, I tried all the possible zeros and they weren't valid, however this is a good example of how to solve a problem like this one. You have to use cardano's cubic method to solve this. 
+
+
+\end{document}

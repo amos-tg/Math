@@ -1,0 +1,358 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\title{Trigonometry}
+\author{Amos Thacker-Gwaltney}
+
+\begin{document}
+\maketitle
+
+\section{Ray}
+A ray is part of a line that consists of an endpoint and all points on the line
+to one side of the endpoint.\\\\
+A ray is denoted symbolically by
+$\overrightarrow{PQ}$ where P is the endpoint and Q is another point on the ray
+to the right of P. A ray always has one endpoint which is always written first
+when naming the ray. 
+
+
+\section{Angle}
+An angle is formed by rotating a ray about it's endpoint. The starting position
+is called the initial side of the angle, and the final position of the ray is
+called the terminal side. The common endpoint is called the vertex of the angle,
+and the vertex is often denoted by a capitlal letter such as A.\\\\
+An angle is
+notated by $\angle{A}$ or by $\angle{BAC}$, where B is the initial side, A being the
+vertex, and C being the terminal side. 
+
+\subsection{Standard Position}
+An angle is said to be at standard position if it's vertex is at the origin in
+the xy-plane, and the initial ray is directly on the x axis.
+
+\subsection{Measurement}
+The measure of an angle quantifies the direction and amount of rotation from the
+initial ray to the terminal ray. The measure is positive if the rotation is
+counterclockwise, and the measurement is negative if the rotation is clockwise.
+Often, degrees are used to measure the amount of rotation, one full rotation of
+a ray about its vertex is equivalent to $360^{\circ}$
+
+\subsection{Angle Type Names}
+\begin{enumerate}
+  \item Right Angle:\\
+    Right angles are angles at $90^{\circ}$ measure.
+
+  \item Straight Angle:\\
+    Straight angles are angles at $180^{\circ}$ measure. 
+
+  \item Acute Angle:\\
+    Acute angles are angles at $0^{\circ} < \theta < 90^{\circ}$
+
+  \item Obtuse Angle:\\
+    Obtuse angles are angles at $90^{\circ} < \theta < 180^{\circ}$\\
+
+  \item Complementary Angles: \\
+    A pair of angles which sum to $90^{\circ}$
+
+  \item Supplementary Angles: \\ 
+    A pair of angles which sum to $180^{\circ}$
+
+  \item Coterminal Angles: \\
+    Two angles in standard position with the same initial side and same terminal
+    side are called coterminal angles. \\
+\end{enumerate}
+  
+\subsection{Units}
+\begin{enumerate}
+  \item Minutes / Arcminutes (min or $'$): \\ 
+    A singular degree can be divided into 60 equal parts; each 1/60th is referred to
+    as one arcminute / minute. $\left(\frac{1}{60}\right)^{\circ}=1'\lor 1min$ 
+  \item Seconds / Arcseconds (sec or $"$): \\
+    A singular arcminute can be divided into 60 equal parts; each 1/60th of such
+    is referred to as one arcsecond. $\left(\frac{1}{60}\right)^{'}=1''\lor 1sec$
+\end{enumerate}
+
+
+\section{Radian Measurement}
+\subsection{Definition of a Radian}
+A central angle that incercepts an arc on the circle with length equal to the
+radius of the circle has a measure of one radian.
+
+\subsection{Angle Measurement}
+When two lines or rays cross a circle, the part of the circle between the
+intersection points is called the intercepted arc and is often denoted by s. 
+
+Any central angle can be measured in radians by dividing the length s of the
+intercepted arc by the radius r. 
+
+\subsection{Review}
+\begin{enumerate}
+  \item $\pi$:\\
+    is defined as the ratio of the circumference of a circle to its diameter
+    d. 
+  \item Circumference:\\
+    Therefore the circumference is given by $C=\pi d$ or $C=2\pi r$, where r
+    is the radius of the circle, dividing this by the radius gives the
+    number of radians in one revolution. The angular measure of one full
+    rotation is $2\pi$ 
+\end{enumerate}
+
+\subsection{Definition of Radian Angle Measure}
+The radian measure of a central angle $\theta$ subtended by an arc of length s
+on a circle of radius r is given by $\theta = \frac{s}{r}$.
+radian measure carries no units because it is measured as a ratio of two lengths
+with the same units (the units associated with s/r "cancel"). Thus, $2\pi$
+radians is simply written as $2\pi$. It is universally understood that the
+measure is in radians. Sometimes the notation "rad" is included for emphasis,
+but is not necessary. 
+
+\begin{enumerate}
+  \item 1 revolution: 
+    $2\pi = 360^{\circ}$
+
+  \item $\frac{1}{2}$ revolution:
+    $\pi = 180^{\circ}$
+
+  \item $\frac{1}{4}$ revolution:
+    $\frac{\pi}{2} = 90^{\circ}$
+
+  \item $\frac{3}{4}$ revolution:
+    $\frac{3\pi}{2} = 270^{\circ}$
+\end{enumerate}
+
+\subsection{Converting Degrees to Radians}
+To convert to radians from degrees multiply the degree by
+$\frac{\pi}{180^{\circ}}$
+\[x^{\circ} \cdot \frac{\pi}{180^{\circ}} = x_{rad}\]
+To convert from radians to degrees multiply the degree by
+$\frac{180^{\circ}}{\pi}$ \[x_{rad} \cdot \frac{180^{\circ}}{\pi}=x^{\circ}\]
+
+
+\section{Trigonometric Functions}
+\subsection{The Unit Circle}
+The unit circle consists of all points (x,y) that satisfy the equation $x^2
++ y^2 = 1$
+
+\subsection{Functions}
+Let $P(x,y)$ be the point associated with a real number t measured along the
+circumference of the unit circle from the point (1,0).
+\begin{enumerate}
+  \item sine:\\
+    $\sin t = y$
+
+  \item cosine:\\
+    $\cos t = x$ 
+  
+  \item tangent:\\
+    $\tan t = \frac{y}{x} (x\ne0)$
+
+  \item cosecant:\\
+    $\csc t = \frac{1}{y} (y\ne0)$
+
+  \item secant:\\
+    $\sec t = \frac{1}{x} (x\ne0)$
+
+  \item cotangent:\\
+    $\cot t = \frac{x}{y} (y\ne0)$
+\end{enumerate}
+If P is on the y-axis in a unit circle example, then x = 0 and the
+tangent and secant functions are undefined.\\\\
+If P is on the x-axis in a unit circle example, then y = 0 and the
+cotangent and cosecant functions are undefined. 
+
+\subsection{Functions of Real Numbers and Angles}
+If $\theta=t$ rad, then:
+\[\sin t = \sin \theta\]
+\[\cos t = \cos \theta\]
+\[\tan t = \tan \theta\]
+\[\csc t = \csc \theta\]
+\[\cot t = \cot \theta\]
+\[\sec t = \sec \theta\]
+
+
+\section{Using Trigonometric Functions to Determine Point Values on a Unit
+Circle}
+In a unit circle where the $radius=1$ you can denote the equation of the
+circle using $x^2+y^2=r$, this means you can plug in $\sin t$'s or $\cos t$'s
+$t$ value into the circle equation to produce the other value and thus
+the coordinate set for point locations, you will have to have a qualifier for
+the quadrant within which the real coordinate lies in order to
+determine the real $P(x,y)$ value. 
+
+
+\section{Fundamental Trigonometric Identities}
+When computing the value of a trigonometric function the argument MUST be
+included.
+\begin{enumerate}
+  \item $\sin t$ and $\csc t$ are reciprocals
+    \[\csc t=\frac{1}{\sin t} \lor \sin t=\frac{1}{\csc t}\]
+  
+  \item $\cos t$ and $\sec t$ are reciprocals
+    \[\sec t=\frac{1}{\cos t} \lor \cos t=\frac{1}{\sec t}\]
+
+  \item $\tan t$ and $\cot t$ are reciprocals
+    \[\cot t=\frac{1}{\tan t} \lor \tan t=\frac{1}{\cot t}\]
+
+  \item $\tan t$ is the ratio of $\sin t$ and $\cos t$.
+    \[\tan t=\frac{\sin t}{\cos t}\]
+
+  \item $\cot t$ is the ratio of $\cos t$ and $\sin t$
+    \[\cot t=\frac{\cos t}{\sin t}\]\\
+\end{enumerate}
+
+\section{Pythagorean Identities}
+\begin{enumerate}
+  \item \[\sin^2t+\cos^2t=1\]
+  \item \[\tan^2t+1=\sec^2t\]
+  \item \[1+\cot^2t=\csc^2t\]
+\end{enumerate}
+
+\section{Periodic Functions}
+A function $f$ is periodic if $f(t+p)=f(t)$ for some constant $p$.\\
+The smallest positive value $p$ for which $f$ is periodic is called the
+period of $f$.
+
+\subsection{Periodic Properties of Trigonometric Functions}
+The values of the six trigonometric functions of t are determined by
+the corresponding point $P(x,y)$ on the unit circle. The Circumference of the
+unit circle is $2\pi$, adding (or subtracting) $2\pi$ to $t$ results
+in the same terminal point $(x,y)$. Consequently, the values of the
+trigonometric functions are the same for $t$ and $t+2n\pi$
+\begin{enumerate}
+  \item Sine:\\
+    $period=2\pi$\\
+    $property=\sin(t+2\pi)=\sin t$\\
+  
+  \item Cosine:\\
+    $period=2\pi$\\
+    $property=\cos(t+2\pi)=\cos t$\\
+
+  \item Cosecant:\\
+    $period=2\pi$\\
+    $property=\csc(t+2\pi)=\csc t$\\
+
+  \item Secant:\\
+    $period=2\pi$\\
+    $property=\sec(t+2\pi)=\sec t$\\
+
+  \item Tangent:\\
+    $period=\pi$\\
+    $property=\tan(t+\pi)=\tan t$\\
+
+  \item Cotangent:\\
+    $period=\pi$\\
+    $property=\cot(t+\pi)=\cot t$\\
+\end{enumerate}
+If the period is $p$, then $f(t+p)=f(t)$. It is also true that $f(t+np)=f(t)$
+for any integer $n$. That is, adding any integer multiple of the period to a
+domain element of a periodic function results in the same function value.
+
+
+\section{Even and Odd Properties of Trigonometric Functions}
+\begin{enumerate}
+  \item Sine:\\
+    $\sin t=y$ and $\sin(-t)=-y$\\
+    Odd Function: $\sin(-t)=-\sin t$
+
+  \item Cosine:\\
+    $\cos t=x$ and $\cos(-t)=x$\\
+    Even Function: $\cos(-t)=\cos t$
+
+  \item Cosecant:\\
+    $\csc t=\frac{1}{y}$ and $\csc(-t)=\frac{1}{-y}$\\
+    Odd Function: $\csc(-t)=-\csc t$
+
+  \item Secant:\\
+    $\sec t=\frac{1}{x}$ and $\sec(-t)=\frac{1}{x}$\\
+    Even Function: $\sec(-t)=\sec t$
+
+  \item Tangent:\\
+    $\tan t=\frac{y}{x}$ and $\tan(-t)=\frac{-y}{x}$\\
+    Odd Function: $\tan(-t)=-\tan t$
+
+  \item Cotangent:\\
+    $\cot t=\frac{x}{y}$ and $\cot(-t)=\frac{x}{-y}$\\
+    Odd Function: $\cot(-t)=-\cot t$\\
+\end{enumerate}
+
+\section{Trigonometric Functions of Any Angle}
+Let $\theta$ be an angle in standard position with point $P(x,y)$ on the
+terminal side, and let $r=\sqrt{x^2+y^2}\ne0$ represent the distance from
+$P(x,y)$ to $(0,0)$. Then:
+\[\sin\theta=\frac{y}{r}\]
+\[\cos\theta=\frac{x}{r}\]
+\[\tan\theta=\frac{y}{x}(x\ne0)\]
+\[\csc\theta=\frac{r}{y}(y\ne0)\]
+\[\sec\theta=\frac{r}{x}(x\ne0)\]
+\[\cot\theta=\frac{x}{y}(y\ne0)\]
+
+
+\section{Reference Angles}
+\subsection{Definition}
+Let $\theta$ be an angle in standard position. The reference angle for
+$\theta$ is the acute angle $\theta'$ formed by the terminal side of $\theta$
+and the horizontal axis.\\ 
+The length of $\angle\theta'$s vertical leg is $|y|$.\\
+The length of the
+horizontal leg is $|x|$.\\
+The hypotenuse's length is $r =\sqrt{x^2+y^2}$
+
+\subsection{Evaluate Trigonometric Functions using Reference Angles}
+$\angle\theta =$ standard position\\
+$\angle\theta'=$ reference angle complementary to $\angle\theta$
+\[\cos \theta = \frac{x}{r} \land
+\cos\theta'=\frac{adj}{hyp}=\frac{|x|}{r}\]
+
+To Find the value of a trigonometric function of a given angle $\theta$
+\begin{enumerate}
+  \item Determine the function value of the reference angle $\theta'$
+
+  \item 
+    Affix the appropriate sign based on the quadrant in which $\theta$ lies
+\end{enumerate}
+
+\section{Right Triangle Trigonometry 4.3}
+\subsection{Anatomy of a Triangle}
+Consider a right triangle, the longest side of the triangle is called the
+hypotenuse, the remaining two legs are determined relative to the position of
+the considered angle. There is an acute angle $\theta$, the leg opposite of this
+angle is considered the opposite leg, the adjacent leg is, similarly, considered
+the adjacent leg. 
+
+The six trigonometric functions take inputs relative to the acute angle $\theta$
+to determine the ratios of the lengths of the sides of the triangle.
+
+\subsection{Definition of Trigonometric Functions of Acute Angles}
+\[sine = \sin\theta=\frac{opp}{hyp}\] 
+\[cosine = \cos\theta=\frac{adj}{hyp}\]
+\[tangent = \tan\theta=\frac{opp}{adj}\]
+\[cosecant = \csc\theta=\frac{hyp}{opp}\]
+\[secant = \sec\theta=\frac{hyp}{adj}\]
+\[cotangent = \cot\theta=\frac{adj}{opp}\]
+
+The mnemonic device "SOH-CAH-TOA" may help you remember the ratios for
+$\sin\theta$, $\cos\theta$, $\tan\theta$, respectively. 
+
+\subsection{Pythagorean Theorem}
+legs a, b;\\
+hypotenuse c;\\
+\[a^2+b^2=c^2\]
+
+\subsection{Cofunction Identities}
+Cofunctions of complementary angles are equal; the "co" prefixing any one of
+these functions stands for "complementary".
+
+\begin{enumerate}
+\item Sine and Cosine are Cofunctions:
+  \[\sin\theta=\cos(90^{\circ}-\theta)\]
+  \[\cos\theta=\sin(90^{\circ}-\theta)\]
+
+\item Tangent and Cotangent are Cofunctions:
+  \[\tan\theta=\cot(90^{\circ}-\theta)\]
+  \[\cot\theta=\tan(90^{\circ}-\theta)\]
+
+\item Secant and Cosecant are Cofunctions:
+  \[\sec\theta=\csc(90^{\circ}-\theta)\]
+  \[\csc\theta=\sec(90^{\circ}-\theta)\]
+
+\end{enumerate}
+
+\end{document}

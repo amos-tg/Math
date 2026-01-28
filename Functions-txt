@@ -1,0 +1,198 @@
+~ Functions:
+A function is a relation, a set of ordered pairs, of which the first value of the ordered pair has only one valid second output value. 
+
+a relation is not a function if 
+f(x) = (y || z): more than ONE value
+f(x) = y: just ONE output value 
+
+
+~ Difference Quotients: 
+
+* formula 
+                       
+         f(x+h) - f(x) 
+f(x+h) = ------------- 
+               h       
+
+~ Function Types:  
+	
+	* Function Compostition
+denoted by a dot with an empty circle, here i will use a star in-place of the proper operator. 
+
+(f * g)(x) = f(g(x))
+
+This in contrast with multiplication, of which the composition operator heavily resembles, feeds the output of function g, which takes the initial x value as its parameter, into function f.
+
+all the other mathematical operators act like normal here, just inline the function with the given x value and place the values according to the operator notation. 
+
+notable composition notation is NOT commutative, the last function in the list of composed functions is the one which takes the initial x value and is then fed into functions left of it given the operator is present between the function and the function to the left of it. 
+
+finding the domain of composite functions is fairly intuitive, unlike normal operatations with functions when you compose the functions you ignore the initial restriction on x values imposed by functions other than the intial function, you have to think about the steps of functions overlap on one another and not each function individually, only the first function is actually observing its restrictions because it is the only function which gets the raw x value, the rest of the functions left of it are getting their input modified by the functions before it so their restrictions are also modified. This is unlike normal operations where each function gets its own copy of the inital x value.  
+
+~ Parent Functions: 
+
+a parent function is the most basic representation of a function type within a family of functions. The following parent functions, represent all of the possible function types. 
+
+* Quadratic functions: basic representation: 
+		f(x) = x^2
+
+* Square Root functions: basic representation:
+		f(x) = sqrt{x}
+
+* Absolute Value functions: basic representation:
+		f(x) = |x|
+
+* Reciprocal function: basic representation:
+		f(x) = 1/x
+
+~ Transformations:
+
+There is a proper order for the following transforamation types to be applied in:  
+
+1 * Horizontal Translation
+
+2 * Horizontal and Vertical Stretch and Shrink
+
+3 * Reflections across the x and y axis
+
+4 * Vertical Translation 
+
+~ Horizontal Translation: 
+
+addition and subtraction to the parent functions x value results in horizontal translation/shifting. 
+
+positive values move the graph towards the negative side / left, example: 
+
+	f(x) = (x+1)^2 : vertex = (-1,0)
+
+negative values move the graph towards the postive side / right, example: 
+
+	f(x) = (x-1)^2 : vertex = (1,0)
+
+~ Horizontal and Vertical Stretch and Shrink:  
+
+Vertical Stretch and Shrink is caused by multiplying the function itself, a coefficient greater than 1 causes stretch and less than one but greater than or equal to zero causes shrink.
+
+	f(x) = x^2 : parent
+	2(f(x)): causes vertical stretch by a factor of 2 : transformed
+  1/2(f(x)): causes vertical shrink by a factor of 1/2 : transformed
+
+multiplying the parameter by a postive value greater than 1 causes horizontal stretching and by a value less than 1 but greater than or equal to 0 causes horizontal shrinkage. 
+
+	f(x) = 1/x : parent
+  f(x*2): horizontal stretch by a factor of 2 : transformed
+	f(x*1/2): horizontal shrink by a factor of 1/2 : transformed
+
+~ Reflections Across the X and Y axis:
+
+Multiplying the whole function by a negative value causes reflection across the x axis because you are changing the outputted value of the function, if a function took a y value and produced an x value it would be the other way around, example: 
+
+	f(x) = sqrt{x} : parent
+	-2(f(x)) = -2(sqrt{x}) : transformed
+
+Multiplying the parameter of the function by a negative value causes reflection across the y axis because all of the parameters are negated when you call the function, once again, if the function took a y value and produced an x value, this would be the other way around, example:  
+
+	f(x) = sqrt{x} : parent
+	f(-2x) = sqrt{x} : transformed
+
+~ Vertical Translation:
+
+vertical translation is caused by adding and subtracting to a function within the function. example: 
+
+	f(x) = sqrt{x} : parent
+	f(x) = sqrt{x} + 10 : shifted positively by +10 : transformed 
+	f(x) = sqrt{x} - 10 : shifted negatively by -10 : transformed
+
+~ Even and Odd functions based on a graph:
+
+* Even Functions:
+you can tell a function is even if it is visually symettrical over the y-axis, example parent function type: 
+
+quadratics: f(x) = x^2
+
+in notation format you can tell using the condition: f(-x) = f(x)
+
+* Odd functions:
+you can tell a function is odd if it is visually symettrical over the origin extending in opposite 
+directions, example parent function type: 
+
+cube root functions : f(x) = x^3
+
+you can tell with notation if: f(-x) = -1 * f(x) 
+
+~ neither even nor odd:
+if a function is neither than it is not even or odd.
+
+~ Inverse Functions:
+Every function has an inverse which will revert the output value of it's inverse into the input value however not every inverse function will actually be a function according to the rules which define a function, for example:
+
+f(x) = 9x
+f(1) = 9 
+inverse_f(x) = 1/9x or x/9
+inverse_f(f(1) = 9) = 1/9*9 or 9/9 = 1
+
+let f be a one-to-one function. Then g is the inverse of f if the following conditions are both true.
+
+often an inverse of f(x) is denoted f^-1(x)
+
+here * = composite operator
+* (f * g)(x) = x for all x in the domain of g 
+* (g * f)(x) = x for all x in the domain of f
+
+to find the inverse of a function
+1 * replace f(x) by y. 
+2 * interchange x and y.
+3 * solve for y
+4 * replace y by f^-1(x)
+ 
+here is an example problem:
+
+f(x) = 3x-1
+   y = 3x-1
+   x = 3y-1
+ x+1 = 3y
+
+ x+1
+ --- = y
+  3
+
+           x+1
+ f^-1(x) = ---
+            3 
+
+* Domain and Range:
+the domain of a function is the same as the range of it's inverse.
+The range of the function is the same as the domain of its inverse.
+
+~ One to One Functions:
+
+A function f is a one-to-one function, if for a and b in the domain of f,
+
+if a != b, then f(a) != f(b), or equivalently, if f(a) = f(b), then a = b.
+
+each y value in the range is associated with only one x value in the domain. This implies that the graph of a one-to-one function will have no two points aligned horizontally.
+
+* Horizontal Line Test:
+  a function defined by y = f(x) is a one-to-one function if no horizontal line intersects the graph in more than one point. Basically no two x values may correspond with one like y value. which can be determined visually with a horizontal line on a graph in a similar manner to the vertical line test, where if there is more than one point on the line which is defined by the function then it is not a one-to-one function. 
+  
+to determine whether you have a one-to-one function from just a function you set one side to a variable and another to a different variable then see if you can simplify them to equivalency. I will use x and y here but it can be any two different letters.
+
+x != y
+f(x) = f(y)
+|x-1| = |y-1|
+-(x-1) = y-1
+-x + 1 = y-1
+
+since x does not equal y, and we cannot simplify
+to x = y, there will be values were f(x) and f(y) are
+equal, therefore, it is not a one to one function
+
+f(x) = f(y)
+x^2 + 1 = y^2 + 1
+x^2 = y^2
+x = +-y or +-x = y
+
+therefore x is not a one-to-one 
+function because in one of these cases
+f(x) = f(y) ie. the opposite sign version
+7 and -7 fulfill that condition

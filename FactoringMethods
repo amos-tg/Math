@@ -1,0 +1,32 @@
+The following are the main factoring methods and the exact order
+in which you should attempt to apply them. The tilda indicates that the methods are of equal precedence that are listed below the tilda with *'s.
+~ GCF:
+
+~ Special Methods:
+
+__THE_SIGNS_MATTER__
+
+* Difference of Squares:
+(a^2 - b^2) = (a - b)(a + b)
+
+* Difference of Cubes:
+(a^3 - b^3) = (a - b)(a^2 + ab + b^2)
+(a^3 + b^3) = (a + b)(a^2 - ab + b^2)
+
+
+~ AC/Simple Method & Grouping:
+given the non-factored: ax^z + bx^s + c
+in the factored form: (x^n + m)(x^n + g)
+
+all the described are sign inclusive
+(g * m) = c
+(n * n) = z
+(g + m) = b
+
+* Grouping:
+using the associative property you can group together terms as quantities in order to pull out gcf's from each of them, sometimes, you can subsequently gcf from outcome of this. here's an example:
+
+8x^3 + 2x^2 + -4x -1
+(8x^3 + 2x^2) + (-4x -1)
+2x^2(4x + 1) + -1(4x + 1)
+(4x + 1)(2x^2 -1)

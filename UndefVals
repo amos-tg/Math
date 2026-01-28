@@ -1,0 +1,17 @@
+~ Division By zero:
+division by zero is undefined. 
+so something like this is undefined:
+
+  8 
+ --- = undefined
+  0
+
+the division of zero by a non-zero number is defined and equals 
+zero. so for example:
+
+  0
+ --- = 0 = defined 
+  5
+
+~ Functions : 
+a composite function may or may not introduce new undefined values, when you need to find all the undefined values for a function you have to take the undefined values for each function, then take the undefined values for the composite function, then you can produce a domain or range. Think about it like this, the functions are solved independently of each other then their output value is operated on with the composite function. This naturally means that each stage of solving the composite function brings its own undefined values.  

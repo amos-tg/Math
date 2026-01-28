@@ -1,0 +1,28 @@
+~ Interval Notation:
+(x, y): indicate that a numbers range is between x and y but not equal to x or y, the parantheses indicate non-inclusivity of the adjacent range boundary value. 
+
+[x, y): the brace, [, indicates that the numbers range is greater than or equal to x and less than y, the equivalent inequality expression for range z is:
+x <= z < y 
+
+you can chain together sets of ranges with union to indicate a range, the symbol for union is, U, for example:
+
+range of x = (2, 4] U [10, 15):
+the range of x includes anything greater than 2 less than or equal to 4 and anything greater than or equal to 10 but less than 15. 
+
+~ Set Notation:
+set notation just takes a set of values, for example:
+R = [2, 5] 
+in set notation would be 
+R = {2, 3, 4, 5} 
+given that we are only 
+documenting integer values
+
+you can chain together interval notation and set notation with a union if you need to represent a single number alongside a range for example:
+
+[2, 4] U { 10, 15 }
+
+
+~ Graphing Increasing, Decreasing, and Constant sections:
+This is pretty intuitive if you think about it, only use open endpoints with interval notation ie. ( and ) because you are graphing the trend and the trend stops at the endpoints. You would only use [ and ] if you were graphing part of the trend and the trend extended past the interval notated section being represented. If a graph is only constant at one point it is never constant because their is no constant trend because it is just a point without extension of a trend and two trends end at the intersecting seemingly constant point therefore it is just the starting point of two different trends not a constant point.   
+
+don't use a union to show multiple trends if they are not directly adjacent to one another, make a list with commas

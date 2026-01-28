@@ -1,0 +1,24 @@
+~ Sigma or Σ: Unicode: U+03A3:
+Σ denotes summation, the operation of adding a sequence of
+numbers where the index below the symbol specifies the
+starting value and the index above specifies the ending
+value.
+
+k
+Σ  
+r = 1
+
+means the sum of all integers from 1 to k.
+
+4
+Σ 2i
+i = 1
+
+means to substitute the values 1, 2, 3, & 4 into the
+expression 2i and then add the results.
+
+(2 * 1) + (2 * 2) + (2 * 3) + (2 * 4) = 20 
+
+as you can see there doesn't have to be an expression
+being for looped over here, it can just be a range 
+which gets summed up like in the first example.

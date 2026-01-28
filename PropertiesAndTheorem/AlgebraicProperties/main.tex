@@ -1,0 +1,241 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, enumitem}
+\title{Algebraic Properties}
+\author{Amos Thacker-Gwaltney}
+
+
+\begin{document}
+\maketitle
+
+
+\section{Identity Properties}
+\subsection{Addition}
+The sum of zero and any number is that number. 
+\[0+10=10\] 
+\[0+\pi=\pi\]
+
+\subsection{Multiplication}
+The product of one and any number is that number.
+\[7*1=7\]
+\[\frac{2}{17}*1=\frac{2}{17}\]
+
+
+\section{Commutative Properties}
+\subsection{Addition}
+Changing the order of operands within consecutive addition operations does not affect the sum. 
+\[2+4+8=14=4+8+2\] 
+
+\subsection{Multiplication}
+Changing the order of factors in consecutive multiplication operations does not affect the product.
+\[4*3=12=3*4\]
+
+
+\section{Associative Properties}
+\subsection{Addition}
+For any number of consecutive addition operations, you can regroup operands arbitrarily. 
+\[a+b+c+d=a+(b+c)+d=(a+b)+(c+d)\]
+This is not an invitation to violate PEMDAS/BODMAS operation ordering.    
+
+\subsection{Multiplication}
+For any number of consecutive multiplication operations, changing the grouping of factors does not change the product.
+\[(2*3)*4=2*(3*4)\]
+
+
+\section{Multiplication and Division as like Operations}
+Division is equivalent to multiplying by the reciprocal of the divisor. 
+\[8/4=2=8*1/4\] 
+
+
+\section{The Distributive Property}
+When faced with a coefficient to a quantity you preserve ordering and multiply each factor of the quantity by the coefficient maintaining the order of the quantity and the coefficient. Sometimes this property is broken into two, referring to left and right distributivity, this is due to the non-commutativity of operations which may be within a quanitity, for this reason the coefficient must be ordered to the left or right as a multiplier based on its location as a coefficient.  
+\[(x-a)b=xb-ab\]
+\[b(x-a)=bx-ba\]
+
+
+\section{Inverse Properties}
+\subsection{Addition}
+For every value a, there will be a value -a, such that the sum of the values will equal zero.
+\[(+a)+(-a)=0\]
+
+\subsection{Multiplication}
+For every non-zero value a, there will be a value 1/a, such that the product of the two values will equal one.
+\[a\cdot\frac{1}{a}=\frac{a}{a}=1\]
+
+
+\section{Properties of Equality}
+\subsection{Additive}
+If two expressions are equal, then adding the same quantity to both sides of the equation will result in two new expressions that are also equal.
+\[x+a=x+b = (x+a)+-x=(x+b)+-x = a=b\]
+
+\subsection{Multiplicative}
+If two expressions are equal, then multiplying both sides of the equation by the same non-zero number results in two new expressions that are also equal. 
+\[x+a=x+b = c(x+a)=c(x+b)\]
+\[x+a=x+b = \frac{1}{x}(x+a)=\frac{1}{x}(x+b) = 1+\frac{a}{x}=1+\frac{b}{x}\]
+
+
+\section{Properties of Exponents}
+\subsection{Product Rule}
+Multiplying exponents of like base x, with powers b and a, is the same as raising base x to the power of the sum of b and a.
+\[x^a\cdot x^b=x^{a+b}\]
+
+\subsection{Quotient Rule}
+Dividing exponents of like base x, with powers b and a, is the same as raising base x to the power of b-a, note that subtraction is not commutative and therefore maintians ordering.
+\[\frac{x^a}{x^b}=x^{a-b}\]
+
+\subsection{Power Rule}
+Raising an exponents power a, by another exponent b is equivalent to multiplying a by b. 
+\[x^{a^b}=x^{a \cdot b}\] 
+
+\subsection{Zero Exponent Rule}
+Any non-zero base to the power of zero is equivalent to one.
+\[a^0 = 1\]
+
+\subsection{Negative Exponent Rule}
+Any base raised to a negative power is equivalent to the reciprocal of the base raised to the positive sign like power.  
+\[(\frac{a}{b})^{-5}=(\frac{b}{a})^5\]
+
+
+\section{Properties of Radicals}
+\subsection{Radicals and Exponents as like Operations}
+Roots and Exponents are equivalent operations formatted differently.  
+\[(\sqrt[n]{x})^m=\sqrt[n]{x^m}=m^\frac{m}{n}\]
+
+\subsection{Product Rule}
+Derived from the Product Rule of exponents; The rule states that when multiplying like index n, radicals with bases b and a, the product is a radical of index n with the base b times a.   
+\[\sqrt[n]{x} \cdot \sqrt[n]{y} = \sqrt[n]{xy}\]
+
+\subsection{Quotient Rule}
+Derived from the Quotient Rule of exponents; The rule states that when dividing like index n, radicals with bases b and a, the product is a radical of index n with the base b divided by a.  
+\[\frac{\sqrt[n]{x}}{\sqrt[n]{y}}=\sqrt[n]{\frac{x}{y}}\]
+
+\subsection{Power Rule}
+Derived from the power rule of exponents; Since $\sqrt[n]{x^m}=x^\frac{m}{n}$, when you have a radical raised to a power you raise the power of x to the product of of x and the power being applied to the radicals numerator, and you set the index of the rational to the product ofthe index and the denominator of the exponent being applied.
+\[(\sqrt[n]{x^m})^\frac{m}{n}=x^{\frac{m}{n} \cdot \frac{m}{n}}=x^\frac{m^2}{n^2}=\sqrt[n^2]{x^{m^2}}\]
+
+
+\section{Properties of Logarithms}
+\subsection{Logarithms and Exponents as inverse Operations}
+Taking the log of an exponential function will produce the input to the exponential function. Logarithsm represent the power to which a base b must be raised to produce a given number x, b and x are the example variables used below. 
+\[log_bx=y\Rightarrow b^y=x\]
+\[log_24=2 \Rightarrow 2^2=4\]
+When you take the log of an exponential function f(x), it will give you the x value. 
+\[f(x)=2^x\]
+\[log_{2}2^x = y\]
+\[2^y=2^x\Rightarrow y=x\]
+
+
+\subsection{Product Rule}
+The logarithm of a product is euqal to the sum of the logarithms of its factors, this is derived from the fact that 
+\[b^m \cdot b^n = b^{m+n}\]
+\[ x=b^m \land y=b^n\]
+take the $\log_b$ of both sides
+\[log_bx=m \land log_by=n\]
+\[x \cdot y=b^m \cdot b^n = b^{m+n}\]
+\[log_b(xy) = log_b(b^{m+n}) = m + n = log_b(x) + log_b(y)\]
+
+\subsection{Quotient Rule}
+The logarithm of a quotient is equal to the difference of logarithms. The inverse property is used to derive the quotient rule.
+\[\log_b\left(\frac{M}{N}\right)=log_bM-log_bN\]
+proof:
+\[\log_bM=m \land \log_bN=n\]
+\[\log_b\left(\frac{M}{N}\right)=log_b\left(\frac{b^m}{b^n}\right)\]
+\[\log_b\left(\frac{M}{N}\right)=log_b\left(b^{m-n}\right)\]
+\[\log_b\left(\frac{M}{N}\right)=m-n\]
+\[\log_b\left(\frac{M}{N}\right)=log_bM-log_bN\]
+
+\subsection{Power Rule}
+The power rule of logarithms is used to simplify the logarithm of a power by rewriting it as the product of the exponent times the logarithm of the base.
+\[log_b(x^n)=n\log_bx\]
+proof:
+\[b^y=x^n\]
+\[\left(b^y\right)^\frac{1}{n}=\left(x^n\right)^\frac{1}{n}\]
+\[b^\frac{y}{n}=x\]
+\[log_b{b^\frac{y}{n}}=log_bx\]
+\[\frac{y}{n}=log_bx\]
+\[y=n\log_bx\]
+
+\subsection{Change of Base}
+The change of base formula is used to take the log base b of x with a different base. The primary use of this algorithm is when your calculator doen not allow arbitrary base input to the log function.
+where b and c are arbitrary bases: 
+\[log_bx=\frac{log_cx}{log_cb}\]
+
+
+\section{Properties of Inequalities}
+\subsection{Flip Rule}
+Whenever you multiply or divide both sides of an inequality by a negative number, you must reverse (flip) the direction of the inequality sign.
+\[-3x>12\] 
+\[x<-4\]
+If there were multiple negative multiplicative/divisive operations it would flip directions for each application of the equality property.
+
+
+\section{Properies of Absolute Value}
+\subsection{Validity of Cases} 
+When solving double sided absolute value equations there are a few things to remember, there are only two valid cases, same signs and opposite signs; having either side negative is not a new case because of the equality property, this applies for positive or negative same sign cases as well. something like:
+\[|x+1|=|x-2|\]
+The expressions valid cases are the answers. 
+Opposite signs example:
+\[x+1=-x+2\]
+\[2x=1\]
+\[x=\frac{1}{2}\]
+is valid, whereas same sign here,
+\[x+1=x+2\]
+\[1=2\]
+is not valid.
+
+
+\section{Properties of Polynomials}
+\subsection{Rational Zero Theorem}
+If a polynomial has integer coefficients, then every rational root when written in lowest terms as $\frac{p}{q}$ must satisfy:
+\begin{enumerate}
+  \item p is a factor of the constant term $a_0$ 
+  \item q is a factor of the leading coefficient $a_n$
+\end{enumerate}
+
+\subsection{Fundamental Theorem of Algebra}
+If f(x) is a polynomial of degree n >= 1 with complex coefficients, then f(x) will have at least one complex zero.
+
+\subsection{Linear Factorization Theorem}
+A polynomial with complex coefficients will have the same number of factors as it's degree, counted according to multiplicity, each factor will be of the form (x-c) where c is a complex number.
+
+\subsection{Complex Conjugate Theorem}
+If the polynomial function f has real coefficients and a complex zero of the form $(a + bi)$ where $b \ne 0$, then the complex conjugate of the zero, $(a-bi)$, is also a zero of $f(x)$.
+
+\subsection{Multiplicity}
+If a polynomial has a factor $(x-c)$, that appears k times, then c is a zero of multiplicity k. Multiplicity counts the occurences of a zero within a polynomial, and determines cross and touch points.
+
+\subsection{Touch and Cross Points}
+f = polynomial function 
+c = real zero of f
+
+the point $(c, 0)$ is an x-intercept of the graph of f, 
+
+If c is a zero of odd multiplicity, then the graph crosses the x-axis at c. The point $(c, 0)$ is called a cross point.
+
+If c is a zero of even multiplicity, then the graph touches the x-axis at c and turns back around (does not cross the x-axis). The point $(c, 0)$ is called a touch point.
+
+\subsection{End Behavior}
+You can use the leading term / largest degree term of a standard form polynomial, to determine end behavior of the graphed function. 
+
+Even exponents will never evaluate to negative.
+Odd exponents will maintain the sign of their input.
+
+\subsection{Inequality Interval Derived Solution Sets}
+\begin{enumerate}
+  \item To find the boundary points,  find all real zeros of a polynomial, and all undefined values, make intervals before and after each zero and undefined value, the zeros are conditionally included in the solution set, undefined values are never included in the solution set.
+  \item test a number which lies inside each interval to see if the entirety of the interval is apart of the solution set.\\\\
+\end{enumerate}
+Sidenote, if there is a expression on the other side of the inequality which isn't zero, then move it over with the equality property and then simplify and refactor the expression which isn't 0.
+
+\subsection{Determining the Max Number of Turning Points}
+The maximum number of turning points in a polynomial function is one minus the degree of the function.\\\\
+Let f represent a function of degree n.\\
+The graph of f has most n - 1 turning points.\\\\
+Turning points in a polynomial represent any location on the graph where the line turns around, it has nothing to do with touch and cross points although a touch point is technically a turning point.
+
+
+\section{Complex Number i}
+i is a complex number, the main thing to know is that $i^2=-1$.
+
+\section{Matrices}
+
+\end{document}

@@ -1,0 +1,57 @@
+~ Definition of A Rational Function:
+
+       p(x)
+f(x) = ----  = a rational function
+       q(x) 
+
+the graph of a rational function may not cross a vertical asymptote. The graph may cross a horizontal asymptote.
+
+the domain of a rational function is all real numbers
+excluding the real zeros of q(x)
+
+~ Finding Asymptotes:
+* Horizontal Asymptotes:
+(y = d) is a horizontal asymptote of the graph of a 
+function if f(x) approaches d as x approaches infinity
+or negative infinity.
+
+* how to find the horizontal asymptote:
+n = degree of the numerator
+m = degree of the denominator
+
+if n > m, then f has no horizontal asymptote
+if n < m, then the line (y = 0) is the h. asymp.
+if n = m, then (y = a(sub{n})/a(sub{m})) is the h. asymp.  
+ this means leading coefficient of the numerator over
+ the leading coefficient of the denomiator.
+
+a = coefficient of the leading term in std. form.
+
+* Vertical Asymptotes:
+vertical asymptotes of a function are where 
+the rational is undefined / where the numerator
+is non-zero but the denominator is zero.
+
+f(x) = 1/(x-1); x = 1 is a vert. asymp. 
+
+* Slant and Nonlinear Asymptotes:
+degree numerator = n
+degree denominator = m
+if (m + 1) = n { theres a slant asymptote }
+if (n > m + 1) { 
+	end behavior resembles a power function (nonlinear)
+      a(sub{n})x^n
+  y = ------------
+      b(sub{m})x^m
+}
+
+
+to find an equation of a slant or nonlinear asymptote,
+divide the numerator of f(x) by the denominator and 
+determine the quotient q(x). The equation y = q(x) 
+is an equation of the asymptote. Notably when you do
+this calculation, you do not need to pay any attention
+to the remainder, the equation is SOLELY the quotient.
+
+a rational function cannot have both a horizontal 
+asymptote and a slant or nonlinear asymptote.

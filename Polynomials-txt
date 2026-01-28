@@ -1,0 +1,191 @@
+~ End Behavior:
+You can use the leading term/largest degree term of a standard form polynomial, to determine the end behavior of the graphed function. This is because the leading term will grow exponentially larger than all the other terms which will have the greatest effect on the polynomial.
+
+* Even Exponents:
+even exponents can never evaluate to a negative 
+number
+
+* Odd Exponents:
+Odd exponents maintain the sign of their input
+
+thats pretty much it; the question format for these
+is generally something along the lines of:
+ 
+the graph goes ___ and to the right
+the graph goes ___ and to the left
+
+and you use the input numbers sign and exponent
+index to determine each sides behavior, ie.
+goes down, goes up, in the blank section.
+
+~ Zeros: 
+
+the parameter values for which a functions output equals zero are the zeros of the function. It is important to remember that undefined values are not zeros.
+
+so basically you will find the zeros of a polynomial by factoring the expression as far as possible, then setting the y value to zero to solve as the opposing side of the equation to this fully factored form.
+
+==============================================
+
+f(x) = 0; 
+ 
+the zeros for this function = all real numbers 
+
+==============================================
+
+f(x) = 1;
+ 
+there are no zeros for this function
+
+==============================================
+
+~ Multiplicity: 
+
+in general, if a polynomial function has a factor
+(x - c) that appears k times, then c is a zero 
+of multiplicity k.
+
+f(x) = -x^2(x-4)^4
+
+0 is a zero with a multiplicity of 2
+4 is a zero with a multiplicity of 4
+
+~ Touch Points and Cross Points:
+
+f = polynomial function 
+c = real zero of f
+
+the point (c, 0) is an x-intercept of the graph of f, 
+
+* if c is a zero of odd multiplicity, then the graph crosses the x-axis at c. The point (c, 0) is called a cross point.
+
+* If c is a zero of even multiplicity, then the graph touches the x-axis at c and turns back around (does not cross the x-axis). The point (c, 0) is called a touch point.
+
+~ Fundamental Theorem Of Algebra:
+If f(x) is a polynomial of degree n >= 1 with complex coefficients, then f(x) has at least one complex zero. 
+
+~ Linear Factorization Theorem:
+A polynomial function with complex coefficients will have the same number of factors as its degree, counted according to multiplicity, each factor will be of the form (x - c) where c is a complex number.
+
+~ Complex Conjugate Theorem:
+If the polynomial function f has real coefficients and a complex zero of the form a + bi, where b != 0,  then the complex conjugate the zero, a - bi, is also a zero of f(x).
+
+remember that i^2 = -1
+
+~ Descartes' Rule of Signs:
+let f(x) be a polynomial with real coefficients and a nonzero constant term. Then, 
+
+1 * The number of positive real zeros is either 
+- the same as the number of sign changes in f(x) or 
+- less than the number of sign changes in f(x) by a positive even integer
+
+2 * The number of negative real zeros is either
+- the same as the number of sign changes in f(-x) or
+- less than the number of sign changes in f(-x) by a positive even integer
+
+~ Upper and Lower Bound Theorem for the Real Zeros of a Polymonial: 
+a real number b is called an upper bound of the real zeros of a polynomial if all real zeros are less than or equal to b.
+
+a real number a is called a lower bound of the real zeros of a polynomial if all real zeros are greater than or equal to a.
+
+let f(x) be a polynomial of degree n >= 1 with real coefficients and a positive leading coefficient. Further suppose that f(x) is divided by (x-c).
+
+1 * if c > 0 and if both the remainder and the coefficients of the quotient are nonnegative, then c is an upper bound for the real zeros of f(x).
+
+2 * if c < 0 and the coefficients of the quotient and the remainder alternate in sign (with 0 being considered either positive or negative as needed), then c is a lower bound for the real zeros of f(x).
+
+~ Rational Zero Theorem: 
+The zeros of a polynomial f(x) are the solutions (roots) to the corresponding polynomial equation f(x) = 0. For a polynomial defined by y = f(x), the real zeros of f(x) are the x-intercepts of the graph of the function. 
+
+p is a factor of the constant term a(subscript{0})
+q is a factor of the leading coefficient a(subscript{n})
+
+if a polynomial of degree n has a leading coefficent a and a != 0, and if p/q (written in lowest terms) is a rational zero of f   
+
+ p    factors of a(subscript{0}) / constant term
+--- = ------------------------------------------------
+ q    factors of a(subscript{n}) / leading coefficient
+
+ when you look for the zeros using this method you should apply the upper and lower bounds theorem to make the process go faster, otherwise you may subject yourself to more math than needed.
+
+~ Finding Inequality Solution Sets with an Equation:
+take all the real zeros of a the polynomial:
+(x + 8)(x - 8)(x + 2) >= 0
+zeros: -8, 8, -2
+these are the boundary points of your graph, 
+make intervals before and after each zero
+
+(-inf, -8) | (-8, -2) | (-2, 8) | (8, inf)  
+
+then test a random number in each interval to see
+if that interval is apart of the solution set. 
+
+we already know that the zeros are apart of the solution set 
+so they are already included.
+
+then build the solution set accordingly. 
+
+when you are looking for intervals make sure to
+note that undefined points are also boundary points for 
+your intervals however they are never apart of the solution
+set because they are undefined.
+ 
+(x + 2) 
+-------
+(x + 8)
+
+in the example -8 is a boundary point but would not be apart 
+of the solution set. This is because in a comparison the
+resulting value is undefined and therefore incomparable in an 
+inequality.
+
+if there is a non-zero equation on both sides of the  
+inequality then you need to incorporate one of the sides 
+into the other by simplifying the orignal form then refactoring,
+otherwise you will miss boundary points and get the wrong answer.
+
+~ Intermediate Value Theorem:
+f = polynomial function. For a < b, if f(a) and f(b) have opposite signs, then f has at least one zero on the interval [a,b]. 
+
+This is pretty intuitive when you think about it, becuase if the value span goes from positive to negative there must be some point between them that is zero. 
+
+~ Number of Turning Points of a polynomial function:
+* The turning points of a polynomial function are the points where the function changes from increasing to decreasing or vice versa. (nothing to do with zeros)
+
+* The turning points correspond to points where the function has relative maxima and relative minima.
+
+Let f represent a polynomial function of degree n. then the graph of f has at most n - 1 turning points.
+
+f(x) = x^3 - 21x + 20 
+
+n is an alias
+degree = n = 3
+
+turning points at most = n - 1
+turning points at most = 3 - 1 = 2 
+turning points at most = 2
+
+~ Polynomial Inequalities:
+let f(x) be a polynomial. Then an inequality of the form
+f(x) < 0, f(x) > 0, f(x) >= 0, or f(x)  <= 0,  is called 
+a polynomial inequality.
+
+A polynomial inequality is nonlinear if f(x) is a polynomial 
+of degree greater than 1.
+
+* solving one:
+rearrange the terms of the inequality so that one side is set to
+zero. to do this you may have to re-simplify a factored polynomial in order to simplify it with the new factors then factor it again.
+
+Find the real solutions of the related equation f(x) = 0 and any values of x that make f(x) undefined. There are the "boundary" points
+for the solution set.
+
+determine the sign of f(x) on the intervals defined by the boundary points. 
+- if f(x) is positive, then the values of x on the interval are solutions to f(x) > 0.
+
+- if f(x) is negative, then the valuesa of x on the interval are solutions to f(x) < 0.
+
+the above is very intuitive to think about.
+Determine whether the boundary points are included in the solution set.
+Write the solution set in interval notation or set-builder notation, mixing the two with unions if needed to express an individual point.
+
+Sometimes a singular value will be excluded in a polynomial. when graphing this is represented as an open dot like how a < or > without an = suffix would be on a number line, this is even if the dot is inthe middle of a line. 

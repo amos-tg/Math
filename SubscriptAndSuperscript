@@ -1,0 +1,19 @@
+~ Subscript: Unicode U+2081 = ₁, extends alphanumerically :
+an expression set slightly below the normal line of type, it
+is usually smaller than the rest of the text. 
+
+subscripts are often used to distinguish between different
+states of the same variable, for example, velocity may be
+represented in an expression of a real world scenario, 
+
+x₁ may represent the initial velocity,
+x₂ may represent the final velocity, 
+x₃ may represent the greatest velocity reached,
+
+and so on.
+
+another example would be to refer to members of a set or
+elements of a vector.
+
+~ Superscript: Unicode U+2070 -- U+209F : 
+the numbers start at U+2070 and go to U+2079

@@ -1,0 +1,63 @@
+~ Basics:
+any non-zero number raised to the power of one is one, this is derived from the law dictating any number multiplied by it's reciprocal is one, which i believe is called the multiplicative identity property, this does not apply to zero becuase division by zero is undefined. 
+
+* Definition:
+let b be a constant real number such that b > 0 and b != 1. Then for any real number x, a function of the form f(x) = b^x is called an exponential function of base b.
+
+~ Forms:
+the following forms are all equivalent
+
+(root{ base = x, index = y })^n;
+root{ base = x^n, index = y};
+x^(n/y);
+
+~ The Negative Exponent Theorem:
+
+        1
+x^-n = ---
+       x^n
+
+this applies if there are multiple factors, you don't flip all 
+the factors, just the ones with negative exponents.
+
+~ Universal Constant e:
+e^-2 = 0.1
+e^-1 = 0.4
+e^0 = ~ 1
+e^1 = ~ 2.7
+e^2 = ~ 7.4
+e^3 = ~ 20.1
+e^4 = ~ 54.6
+
+~ Graphing:
+the graph of an exponential function is defined by f(x) = b^x (b > 0 and b != 1) has the following properties. 
+
+f = exp. fn;
+
+if f b > 1, f is an exponential growth function.
+
+if 0 < b < 1, f is an exponential decay function.
+
+* if b > 1, f is an increasing exponential function, 
+
+* if 0 < b < 1, f is a decreasing exponential function. 
+
+* The domain is all real numbers
+
+* the range is (0, inf).
+
+* The line y=0 is a horizontal asymptote
+
+* the line passes through the point (0, 1) because f(0) = b^0 = 1
+
+~ Compound Interest Formula:
+where 
+P = principal/initial invested
+t = number of years 
+n = compounding periods per year
+r = interest rate 
+A = total amount 
+
+           r
+A = P( 1 + - )^nt 
+           n
