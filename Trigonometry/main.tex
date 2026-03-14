@@ -1,10 +1,12 @@
 \documentclass{article}
-\usepackage{amsmath, amssymb}
+\usepackage{amsmath, amssymb, graphicx}
+\graphicspath{ {../images/} }
 \title{Trigonometry}
 \author{Amos Thacker-Gwaltney}
 
 \begin{document}
 \maketitle
+\tableofcontents
 
 \section{Ray}
 A ray is part of a line that consists of an endpoint and all points on the line
@@ -498,5 +500,219 @@ Transformation Format:
   \[P = \frac{period_{parent}}{|B|}\]
 
 \end{enumerate}
+
+\section{Triangles}
+The total of all three angles in a triangle is always $180^{\circ}$.
+
+\subsection{Types Of Triangles}
+\begin{enumerate}
+  \item Equilateral Triangle:\\
+    All three sides are equal in length, and all three angles are
+    $60^{\circ}$.
+
+  \item Isosceles Triangle:\\
+    At least two sides are equal in length; the angles opposite the equal
+    sides are also equal.
+
+  \item Scalene Triange:\\
+    All three sides have different lengths, and all three angles are
+    different.
+
+  \item Acute Triangle:\\
+    All three angles are less than $90^{\circ}$
+
+  \item Right Triangle:\\
+    One angle is exactly $90^{\circ}$; the other two are acute.
+
+  \item Obtuse Triangle:\\
+    One angle $> 90^\circ$, all sides different.
+\end{enumerate}
+
+\subsection{Special Triangles}
+\paragraph{Isosceles Right Triangles}
+(Angle Measurements: $45^\circ-45^\circ-90^\circ$)\\
+The hypotenuse is equivalent to either of the legs multiplied by the
+square root of two.
+For legs a and b, and hypotenuse c:
+\[a = b \land c = a\sqrt{2} \lor b\sqrt{2}\]
+
+\paragraph{Scalene Right Triangle} (Angle Measurements:
+$30^\circ-60^\circ-90^\circ$)\\
+The side opposite $30^\circ$ is the shortest.
+The side opposite $60^\circ$ is the longer leg.\\
+Where the shortest leg $=a$, the longer leg $=b$, and the hypotenuse $=c$:
+\[b=a\sqrt{3}\]
+\[c=2x\]
+
+\section{Inverse Trigonometric Functions}
+\subsection{Inverse Sine Function or Arcsin}
+In it's base form the function $y=\sin x$ is only injective if it is restricted to a singular
+trough to crest half wave form.\\
+
+\[y=\sin x \iff -\frac{\pi}{2} \leq x \leq \frac{\pi}{2}\]
+Restrictions Caused on $y=\sin^{-1}x$:
+\[-1\le x \le 1 \land -\frac{\pi}{2}\le y \le\frac{\pi}{2}\]
+
+The inverse of the restricted sine function is called arcsin or $\sin^-1$ in
+traditional inverse function denotation.
+
+\begin{center}
+\includegraphics[scale=0.2]{inverse-sine-function}
+\end{center}
+
+\subsection{Inverse Cosine Function or Arccosine}
+Arccosine is similarly restricted although over a different domain of x values
+for it's parent function given that cosine starts at one by the origin,
+not zero, and is an even function.\\\\
+Restrictions for $y=\cos{x}$:
+\[0\le x\le \pi\]
+\[-1\le y \le 1\]\\
+\[y=\cos^{-1}x\iff \cos{y}=x\]
+\[y=\arccos x\iff \cos{y}=x\]
+Caused restrictions for $y=\cos^{-1}x$:
+\[-1\le x \le 1 \land 0 \le y \le \pi\]
+
+\subsection{Inverse Tangent Function}
+Restrictions for $y=\tan{x}$:
+\[-\frac{\pi}{2}<x<\frac{\pi}{2}\]
+Vertical Asymptotes for $y=\tan{x}$:
+\[x=-\frac{\pi}{2}, \frac{\pi}{2}\]
+Restrictions cause Horizontal Aymptotes for $y=\tan^{-1}x$:
+\[y=-\frac{\pi}{2},\frac{\pi}{2}\]
+
+\subsection{Inverse Secant Function}
+Restrictions for $y=\sec x$:
+\[0\le x \le \pi, x \ne \frac{\pi}{2}\]
+Vertical Asymptotes for $y=\sec x$:
+\[x=\frac{\pi}{2}\]
+Restrictions cause Horizontal Asymptotes for $y=\sec^{-1}x$:
+\[y=0,y=\pi\]
+
+\subsection{Inverse Cosecant Function}
+Restrictions for $y=\csc x$:
+\[-\frac{\pi}{2}\le x \le \frac{\pi}{2},x\ne 0\]
+Vertical Asymptotes for $y=\csc x$:
+$x = 0$
+Restrictions cause Horizontal Asymptotes for $y=\csc^{-1}x$:
+\[y=-\frac{\pi}{2},y=\frac{\pi}{2}\]
+
+\subsection{Inverse Cotangent Function}
+Restrictions for $y =\cot x$:
+\[0<x<\pi\]
+Vertical Asymptotes for $y=\cot x$:
+\[x=0, x=\pi\]
+Restrictions cause Horizontal Asymptotes for $y=\cot^{-1}x$:
+\[y=0,y=\pi\]
+
+\subsection{Inverse Function Use Cases}
+\begin{enumerate}
+  \item You can use the inverse of a trig function to determine the input to the
+original function based on a given output which does not provide a measure of
+the inputted angle but does provide the output. 
+\[\sin(\sin^{-1}2\pi)=2\pi\]
+
+  \item You can use values of a trig function to derive the values of a
+    reference triangle which can then be used traditionally to determine an
+    encapsulating function. 
+    \[\tan{\left[\cos^{-1}\left(\frac{\sqrt{x^2-9}}{x}\right)\right]}=\frac{3}{x}\]
+    \[\left(\sqrt{x^2-9}\right)^2+b^2=x^2\] 
+    \[x^2-9+b^2=x^2\]
+    \[-9+b^2=0\]
+    \[b^2=9\]
+    \[b=3\]
+    \[opp=3\land adj=\sqrt{x^2-9}\land hyp=x\]
+\end{enumerate}
+
+\section{5.1: Algebraic manipulation of Trigonometric Functions}
+\subsection{LCD of Trigonometric Functions and Variables}
+\[LCD\; of\; \frac{a}{b};a = b\]
+When you apply the LCD:
+\[\frac{a}{b}\rightarrow \frac{a}{b}\]
+\[a\rightarrow \frac{ab}{b}\]
+This can also be done with trig functions:
+\[LCD\;of\;\frac{\sin{x}}{\cos{x}};\cos{x}=\cos{x}\]
+When you apply the LCD:
+\[\frac{\sin{x}}{\cos{x}}\rightarrow\frac{\sin{x}}{\cos{x}}\]
+\[\cos{x}\rightarrow\frac{\cos{x}}{\cos{x}}\]
+
+\subsection{Properties of Trigonometric Functions}
+They have similar properties to that of a variable, you can multiply them,
+factor them, etc...
+
+\subsection{Proving Trigonometric Identities}
+\begin{enumerate}
+  \item Work with one side of the equation and keep the other side in
+    mind as your final goal
+
+  \item If the expression is a product or quotient of factors,
+    consider the reciprocal and quotient identities.
+
+  \item If squared terms are present, look to see if terms can be
+    grouped into one of the forms of a pythagorean identity
+
+  \item If an expression involves a negative argument, consider
+    using the even or odd function identities.
+  
+  \item Apply basic algebraic techniques like factoring, multiplying
+    terms, combining like terms, and writing factions with a common
+    denominator.
+
+  \item Consider writing expressions literally in terms of sine and
+    cosine.
+
+  \item Make sure to remember that you can algebraically manipulate
+    the identity expressions in order to suit your expressions
+    needs.
+\end{enumerate}
+
+\section{5.2: Sum and Difference Formulas}
+\subsection{Chord}
+A straight line segment whose endpoints both lie on the
+circumference of the circle. The diameter, which passes through the center
+of the circle, is the longest possible chord.
+
+\subsection{Sine Sum Formula}
+\[\sin(u+v)=\sin{u} \cos{v}+ \cos{u}\sin{v}\]
+
+\subsection{Sine Difference Formula}
+\[\sin{(u-v)}=\sin{u}\cos{v}-\cos{u}\sin{v}\]
+
+\subsection{Cosine Sum Formula}
+\[\cos{(u+v)}=\cos{u}\cos{v}-\sin{u}\sin{v}\]
+
+\subsection{Cosine Difference Formula}
+\[\cos{(u-v)}=\cos{u}\cos{v}+\sin{u}\sin{v}\]
+
+\subsection{Tangent Sum Formula}
+\[\tan{(u+v)}=\frac{\tan{u}+\tan{v}}{1-\tan{u}\tan{v}}\]
+
+\subsection{Tangent Difference Formula}
+\[\tan{(u-v)}=\frac{\tan{u}-\tan{v}}{1+\tan{u}\tan{v}}\]
+
+\section{5.3: Double-Angle, Power-Reducing, and Half-Angle
+Measurements}
+\subsection{Double-Angle Formulas}
+Since $\sin{2\theta}=\sin{(\theta + \theta)}$, for angles which have
+coefficients applied to their arguments, we can simplify them using the sum
+and difference formulas for any of the respective trig. functions.
+\[\sin{2\theta}=\sin{\theta}\cos{\theta}+\cos{\theta}\sin{\theta}\]
+The trig. functions have a variety of different identities which can be proven:
+\[\sin{2\theta}=2\sin{\theta}\cos{\theta}\]
+\[\cos{2\theta}=\cos^2{\theta}-\sin^2{\theta}\]
+\[\cos{2\theta}=1-2\sin^2{\theta}\]
+\[\cos{2\theta}=2\cos^2{\theta}-1\]
+\[\tan{2\theta}=\frac{2\tan{\theta}}{1-\tan^2{\theta}}\]
+
+\subsection{Power-Reducing Formulas}
+\[\sin^2{\theta}=\frac{1-\cos{2\theta}}{2}\]
+\[\cos^2{\theta}=\frac{1+\cos{2\theta}}{2}\]
+\[\tan^2{\theta}=\frac{1-\cos{2\theta}}{1+\cos{2\theta}}\]
+
+\subsection{Half-Angle Formulas}
+Where the sign of a is determined by the quadrant in which the angle
+$\frac{a}{2}$ lies:
+\[\sin{\frac{a}{2}}=\pm\sqrt{\frac{1-\cos{a}}{2}}\]
+\[\cos{\frac{a}{2}}=\pm\sqrt{\frac{1+\cos{a}}{2}}\]
+\[\tan{\frac{a}{2}}=\pm\sqrt{\frac{1-\cos{a}}{1+\cos{a}}}=\frac{1-\cos{a}}{\sin{a}}=\frac{\sin{a}}{1+\cos{a}}\]
 
 \end{document}
